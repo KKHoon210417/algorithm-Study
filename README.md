@@ -1,6 +1,11 @@
 # algorithm-Study
 Python 기반의 알고리즘 공부 Repository입니다.
 
+## Card
+<div>
+  <img align='center' src="http://mazassumnida.wtf/api/v2/generate_badge?boj=zozo1591">
+</div>
+
 ## 현재 진도
 ### BAEKJOON
 - 단계별 알고리즘 풀이
