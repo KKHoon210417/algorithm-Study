@@ -34,5 +34,4 @@ for i in range(k):
         break
 
 
-
 print(sum(a_array))
