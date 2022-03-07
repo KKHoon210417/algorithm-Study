@@ -18,6 +18,7 @@
 # 1. 컷팅 동작하는 길이는 이진법으로 찾는다.(시작점, 떡의 최소 길이. 끝점, 떡의 최대 길이)
 # 2. 적어도 M만큼의 길이를 얻는 길이를 구한다
 
+
 n, m = list(map(int, input().split()))
 n_array = list(map(int, input().split()))
 

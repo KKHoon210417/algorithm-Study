@@ -33,6 +33,7 @@ d = [0] * 1000
 # d[7] = 8 + d[5] or d[6] = 32, 10 -> 32, 24
 d[0] = n_array[0]
 d[1] = max(n_array[0], n_array[1])
+
 for i in range(2, n):
     d[i] = max(d[i-1], n_array[i] + d[i - 2])
 
