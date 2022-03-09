@@ -85,6 +85,7 @@ def dfs(count):
         # 안전 영역의 최댓값 계산
         result = max(result, get_score())
         return
+
     # 빈 공간에 울타리 설치
     for i in range(n):
         for j in range(m):
