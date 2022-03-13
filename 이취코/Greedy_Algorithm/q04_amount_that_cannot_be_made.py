@@ -15,7 +15,6 @@
 # 1. 1,000,001 크기의 리스트를 초기화 합니다.
 # 2. 1,000,001 크기의 리스트를 boolean으로 셋팅하고, 만들 수 있다면, True 없다면 False를 넣습니다.
 # 3. 0번 인덱스를 제외한 두번째 False값의 인덱스가 최솟값입니다.
-# 4.
 
 # 풀이_해설
 n = int(input())
@@ -23,7 +22,6 @@ array = list(map(int, input().split()))
 array.sort()
 
 target = 1
-
 
 for i in array:
     if target < i:
