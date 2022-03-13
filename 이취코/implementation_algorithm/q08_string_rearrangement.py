@@ -29,5 +29,9 @@ for i in s:
 
 sorted_string = ''.join(sorted(string))
 
-result = sorted_string + str(number)
+if number != 0:
+    result = sorted_string + str(number)
+else:
+    result = sorted_string
+
 print(result)

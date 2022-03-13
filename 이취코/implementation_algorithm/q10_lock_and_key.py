@@ -60,7 +60,7 @@ def solution(key, lock):
                 # 자물쇠에 열쇠를 끼어 넣기
                 for i in range(m):
                     for j in range(m):
-                        new_lock[x + i][y + i] += key[i][j]
+                        new_lock[x + i][y + j] += key[i][j]
                 # 새로운 자물쇠에 열쇠가 정확히 들어맞는지 검사
                 if check(new_lock) == True:
                     return True
