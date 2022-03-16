@@ -121,3 +121,5 @@ def solution(graph, move):
             now_y = ny
 
 print(solution(graph, move))
+
+
