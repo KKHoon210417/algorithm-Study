@@ -2,9 +2,9 @@
 
 # N x N 크기의 복도가 있습니다.
 # 각 선생님들은 상, 하, 좌, 우 4가지 방향으로 감시를 진행합니다. 이때, 선생님은 장애물로 가로막히기 전까지 4가지 방향으로 학생을 볼 수 있습니다.
-# 위칫값은 (행, 열)로 나타냅니다.
-# 선생님이 존재하면 T, 학생이 존재하면 S 장애물이 존재하면 O로 표시합니다.
-# 장애물 3개를 설치하여 학생들이 선생님의 감시롭터 모든 학생이 피할 수 있는지 프로그램을 작성하시오.
+# 위칫값은 (행, 열)로 나타냅 O로 표시합니다니다.
+# # 선생님이 존재하면 T, 학생이 존재하면 S 장애물이 존재하면.
+# 장애물 3개를 설치하여 학생들이 선생님의 감시로부터 모든 학생이 피할 수 있는지 프로그램을 작성하시오.
 
 # 입력 조건
 # 1. 첫째 줄에 자연수 N이 주어집니다.
@@ -33,6 +33,7 @@ for i in range(n):
             teacher.append((i, j))
         if board[i][j] == 'X':
             spaces.append((i, j))
+
 
 def watch(x, y, direction):
     if direction == 0:
@@ -65,12 +66,14 @@ def watch(x, y, direction):
             x += 1
     return False
 
+
 def process():
     for x, y in teacher:
         for i in range(4):
             if watch(x, y, i):
                 return True
     return False
+
 
 find = False
 
