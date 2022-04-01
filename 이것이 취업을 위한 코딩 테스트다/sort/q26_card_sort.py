@@ -10,7 +10,6 @@
 # 2. 해당 리스트를 순차적으로 더해줍니다.
 
 # 풀이
-# from collections import deque
 
 # n = int(input())
 # cards = []
